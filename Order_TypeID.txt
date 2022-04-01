@@ -1,0 +1,47 @@
+Insturment Code
+
+$UIA_NamePropertyId                                 [1, EQUITY]
+$UIA_NamePropertyId                                 [2, FUTIDX]
+$UIA_NamePropertyId                                 [3, FUTSTK]
+$UIA_NamePropertyId                                 [4, FUTIVX]
+$UIA_NamePropertyId                                 [5, OPTIDX]
+$UIA_NamePropertyId                                 [6, OPTSTK]
+$UIA_NamePropertyId                                 [7, FUTCUR]
+$UIA_NamePropertyId                                 [8, OPTCUR]
+
+$UIA_NamePropertyId                                 [17, FUTCOM]
+$UIA_NamePropertyId                                 [18, OPTFUT]
+$UIA_NamePropertyId                                 [30, OPTCOM]
+$UIA_NamePropertyId                                 [32, FUTIDX]
+
+
+
+
+
+
+
+
+$UIA_NamePropertyId                                 [3, MCX]
+$UIA_NamePropertyId                                 [1, NSE]
+
+
+$UIA_NamePropertyId                                 [L, Limit]
+$UIA_NamePropertyId                                 [MKT, Market]
+$UIA_NamePropertyId                                 [SL, SL]
+$UIA_NamePropertyId                                 [SL-M, SL-M]
+
+
+$UIA_NamePropertyId                                 [MARGIN, MARGIN]
+$UIA_NamePropertyId                                 [INTRADAY, INTRADAY]
+$UIA_NamePropertyId                                 [CO, CO]
+$UIA_NamePropertyId                                 [BO, BO]
+
+
+
+
+
+$UIA_NamePropertyId                                 [DAY, DAY]
+$UIA_NamePropertyId                                 [IOC, IOC]
+$UIA_NamePropertyId                                 [GTD, GTD]
+$UIA_NamePropertyId                                 [GTC, GTC]
+$UIA_NamePropertyId                                 [EOS, EOS]
