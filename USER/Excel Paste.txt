@@ -1,0 +1,17 @@
+Exchange=
+Inst=
+Symbol=
+Strike=
+OrderType=
+Qty=
+BuyPrice=
+SellPrice=
+SL Trigger=
+Product=
+CO Trigger=
+BO TakeProfit=
+BO StopLoss=
+BO Trailing_ONOFF=
+BO Trailing=
+Order Confirm=
+Buy Sell=

@@ -1,0 +1,42 @@
+Sub Button1_Click()
+
+Dim oFile As String: oFile = "D:\OrderFill\config.ini"
+Dim intFF As Integer: intFF = FreeFile()
+
+Dim c As Range, r As Range
+Dim output As String
+For Each r In Range("A1:B17").Rows
+    For Each c In r.Cells
+        output = output & c.Value
+     Next c
+        output = output & vbNewLine
+     Next r
+
+Open oFile For Output As #intFF
+
+Print #intFF, "[Value]"; vbNewLine; output;
+Close #intFF
+
+'Pid = Shell("D:\OrderFill\OrderFill_Shoonya.exe", vbNormalFocus)'
+
+[OrderFill!A20] = "Order 1 Placed"
+Application.Wait (Now + TimeValue("0:00:15"))
+
+Dim c1 As Range, r1 As Range
+Dim output1 As String
+For Each r1 In Range("D1:E17").Rows
+    For Each c1 In r1.Cells
+        output1 = output1 & c1.Value
+     Next c1
+        output1 = output1 & vbNewLine
+     Next r1
+
+Open oFile For Output As #intFF
+
+Print #intFF, "[Value]"; vbNewLine; output1;
+Close #intFF
+
+'Pid = Shell("D:\OrderFill\OrderFill_Shoonya.exe", vbNormalFocus)'
+[OrderFill!D20] = "Order 2 Placed"
+
+End Sub
